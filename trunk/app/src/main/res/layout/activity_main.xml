@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.sungjae.cokaru.whereami.MainActivity">
+
+    <fragment
+        android:id="@+id/frag_command"
+        class="com.sungjae.cokaru.whereami.CommandFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <fragment
+        android:id="@+id/frag_map"
+        class="com.sungjae.cokaru.whereami.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+
+

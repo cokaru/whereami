@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/commandFragment"
+    tools:context="com.sungjae.cokaru.whereami.CommandFragment">
+
+
+    <TextView
+        android:id="@+id/text_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push start button to track your location."
+       />
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UTM Coordinates"
+      />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start(Set Spot)"
+        android:id="@+id/searchBtn"
+      />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upadte Location"
+        android:id="@+id/updateBtn"
+      />
+
+
+</LinearLayout>
